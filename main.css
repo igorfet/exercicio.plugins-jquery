@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Roboto, sans-serif;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(134, 222, 193);
+    width: 100%;
+    list-style: none;
+}
+
+
+section, footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 45px;
+    background-color: rgb(0, 0, 0, 0.2); 
+    width: 900px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 10px;
+}
+
+section h2 {
+    color: rgb(0, 0, 0, 0.5);
+    font-size: 65px;
+    margin: 2rem;
+}
+
+.form-campo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    list-style: none;
+}
+
+
+form label {
+    color: rgb(0, 0, 0, 0.5);
+    font-size: 29px;
+    margin-bottom: 16px;
+}
+
+form input {
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 10px;
+    font-size: 25px;
+    transition: all 0.5s;
+}
+
+form input:focus{
+    border-radius: 20px;
+}
+
+.form-campo {
+    margin-bottom: 16px;
+    width: 100%;
+    padding: 8px;
+
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: block;
+}
+
+form button, section button {
+    padding: 11px;
+    margin-bottom: 16px;
+    background-color: #0000;
+    color: #fff;
+    font-size: 29px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    width: 100%;        
+    align-items: center;
+    border: 2px solid #000 ;
+    transition: all 0.5s;
+    
+}
+
+
+form button:hover {
+    background: rgb(35, 102, 80);
+    color: #000;
+    border-radius: 20px;
+    
+}
+
+.xpdgs {
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    justify-content: center;
+    min-width: 100vh;
+    color: #ffff;
+    flex-direction: column;
+}
+.text {
+    font-size: 45px;
+}
+
+.btn{
+    color: #fff;
+    padding: 12px;
+}
+
+#copy {
+    
+    background-color: darkcyan;
+    padding-top: 16px;
+    color: #ccc;
+    
+}
+
+#copy {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+#contato {
+    margin-bottom: 60px;
+}
+
+
+
+
+
+
+
+
